@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Vaccination Information</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        .vaccination-info {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Pet Vaccination Information</h1>
+        <p class="text-center">Vaccinations are crucial for keeping your pets healthy. Here’s what you need to know about vaccinating your furry friends.</p>
+
+        <!-- Dog Vaccination Section -->
+        <div class="vaccination-info">
+            <h2>Dog Vaccinations</h2>
+            <h4>Core Vaccines:</h4>
+            <ul>
+                <li>Rabies</li>
+                <li>DHPP (Distemper, Hepatitis, Parvovirus, Parainfluenza)</li>
+            </ul>
+            <h4>Non-Core Vaccines:</h4>
+            <ul>
+                <li>Bordetella (Kennel Cough)</li>
+                <li>Leptospirosis</li>
+                <li>Lyme Disease</li>
+            </ul>
+            <h4>Vaccination Schedule:</h4>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Age</th>
+                        <th>Vaccination</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6-8 weeks</td>
+                        <td>DHPP</td>
+                    </tr>
+                    <tr>
+                        <td>12 weeks</td>
+                        <td>Rabies</td>
+                    </tr>
+                    <tr>
+                        <td>1 year</td>
+                        <td>Booster shots for DHPP and Rabies</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Cat Vaccination Section -->
+        <div class="vaccination-info">
+            <h2>Cat Vaccinations</h2>
+            <h4>Core Vaccines:</h4>
+            <ul>
+                <li>Rabies</li>
+                <li>FVRCP (Feline Viral Rhinotracheitis, Calicivirus, and Panleukopenia)</li>
+            </ul>
+            <h4>Non-Core Vaccines:</h4>
+            <ul>
+                <li>Feline Leukemia Virus (FeLV)</li>
+                <li>Chlamydophila felis</li>
+            </ul>
+            <h4>Vaccination Schedule:</h4>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Age</th>
+                        <th>Vaccination</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6-8 weeks</td>
+                        <td>FVRCP</td>
+                    </tr>
+                    <tr>
+                        <td>12 weeks</td>
+                        <td>Rabies</td>
+                    </tr>
+                    <tr>
+                        <td>1 year</td>
+                        <td>Booster shots for FVRCP and Rabies</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Appointment Booking Form -->
+        <div class="vaccination-info">
+            <h2>Book a Vaccination Appointment</h2>
+            <form action="#" method="POST">
+                <div class="mb-3">
+                    <label for="petName" class="form-label">Pet Name</label>
+                    <input type="text" class="form-control" id="petName" name="petName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="ownerName" class="form-label">Owner Name</label>
+                    <input type="text" class="form-control" id="ownerName" name="ownerName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="appointmentDate" class="form-label">Preferred Date</label>
+                    <input type="date" class="form-control" id="appointmentDate" name="appointmentDate" required>
+                </div>
+                <div class="mb-3">
+                    <label for="contactInfo" class="form-label">Contact Information</label>
+                    <input type="tel" class="form-control" id="contactInfo" name="contactInfo" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Request Appointment</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Pet Care Portal | All Rights Reserved</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
