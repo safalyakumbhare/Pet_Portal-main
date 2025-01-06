@@ -22,9 +22,9 @@ Welcome to the **Pet Portal**, a comprehensive web application designed for pet 
 - Monitor system activities.
 - Approve or reject doctors and there clinics registrations.
 
-Admin Email : safalyakumbhare@gmail.com
-Admin Password : safalya
----
+<p>Admin Email : safalyakumbhare@gmail.com</p>
+<p>Admin Password : safalya</p>
+
 
 ## Technologies Used 💻
 - **Frontend**: HTML, CSS, Bootstrap, JavaScript
