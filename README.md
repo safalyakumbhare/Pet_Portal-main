@@ -22,6 +22,8 @@ Welcome to the **Pet Portal**, a comprehensive web application designed for pet 
 - Monitor system activities.
 - Approve or reject doctors and there clinics registrations.
 
+Admin Email : safalyakumbhare@gmail.com
+Admin Password : safalya
 ---
 
 ## Technologies Used 💻
