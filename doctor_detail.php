@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Pets Portal - Doctor Detail</title>
     <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport" />
-    <link rel="icon" href="/assets/images/kaiadmin/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/images/pets.png" type="image/x-icon">
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -15,7 +16,9 @@
     <script src="/assets/js/dashboard_js/plugin/webfont/webfont.min.js"></script>
     <script>
         WebFont.load({
-            google: { families: ["Public Sans:300,400,500,600,700"] },
+            google: {
+                families: ["Public Sans:300,400,500,600,700"]
+            },
             custom: {
                 families: [
                     "Font Awesome 5 Solid",
@@ -25,7 +28,7 @@
                 ],
                 urls: ["/assets/css/dashboard_css/fonts.min.css"],
             },
-            active: function () {
+            active: function() {
                 sessionStorage.fonts = true;
             },
         });
@@ -64,7 +67,7 @@
 
                     $doctor_row = mysqli_fetch_assoc($doctor_result);
 
-                    ?>
+        ?>
 
                     <div class="container">
                         <div class="page-inner">
@@ -90,29 +93,29 @@
                                                     <div class="row ">
                                                         <div class="col-md-5 m-md-2">
                                                             <h5 class="text-secondary">Doctor Name :</h5>
-                                                            <p  class="fw-light"><?php echo $doctor_row['name'] ?></p >
+                                                            <p class="fw-light"><?php echo $doctor_row['name'] ?></p>
                                                         </div>
                                                         <div class="col-md-5 m-md-2">
                                                             <h5 class="mt-1 text-secondary">Address :</h5>
 
-                                                            <p  class="fw-light"><?php echo $doctor_row['address'] ?></p >
+                                                            <p class="fw-light"><?php echo $doctor_row['address'] ?></p>
                                                         </div>
                                                         <div class="col-md-5 m-md-2">
                                                             <h5 class="mt-1 text-secondary">Email :</h5>
 
-                                                            <p  class="fw-light"><?php echo $doctor_row['email'] ?></p >
+                                                            <p class="fw-light"><?php echo $doctor_row['email'] ?></p>
                                                         </div>
                                                         <div class="col-md-5 m-md-2">
                                                             <h5 class="mt-1 text-secondary">Phone Number :</h5>
 
-                                                            <p  class="fw-light"><?php
-                                                            echo $doctor_row['phone']
-                                                                ?></p >
+                                                            <p class="fw-light"><?php
+                                                                                echo $doctor_row['phone']
+                                                                                ?></p>
                                                         </div>
                                                         <div class="col-md-5 m-md-2">
                                                             <h5 class="text-secondary">Date of Birth :</h5>
-                                                            <p  class="fw-light"><?php $date = date_create($doctor_row['dob']);
-                                                            echo date_format($date, "d-m-Y"); ?></p >
+                                                            <p class="fw-light"><?php $date = date_create($doctor_row['dob']);
+                                                                                echo date_format($date, "d-m-Y"); ?></p>
                                                         </div>
 
 
@@ -163,24 +166,24 @@
                                                 <div class="col-md-3">
                                                     <div class="form-group">
                                                         <h5 class="text-secondary">Registration At :</h5>
-                                                        <p  class="fw-light"><?php  $date = date_create($doctor_row['created_at']);
-                                                        echo date_format($date, "d-m-Y");
-                                                        echo "<br>";
-                                                        echo date_format($date,"h:m:s"); ?></p >
+                                                        <p class="fw-light"><?php $date = date_create($doctor_row['created_at']);
+                                                                            echo date_format($date, "d-m-Y");
+                                                                            echo "<br>";
+                                                                            echo date_format($date, "h:m:s"); ?></p>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-3">
                                                     <div class="form-group">
                                                         <h5 class="text-secondary">Updated At : </h5>
-                                                        <p  class="fw-light"><?php
-                                                        
-                                                        $date = date_create($doctor_row['updated_at']);
-                                                        echo date_format($date, "d-m-Y");
-                                                        echo "<br>";
-                                                        echo date_format($date,"h:m:s");
-                                                        // echo $doctor_row['updated_at'];
-                                                        
-                                                        ?></p >
+                                                        <p class="fw-light"><?php
+
+                                                                            $date = date_create($doctor_row['updated_at']);
+                                                                            echo date_format($date, "d-m-Y");
+                                                                            echo "<br>";
+                                                                            echo date_format($date, "h:m:s");
+                                                                            // echo $doctor_row['updated_at'];
+
+                                                                            ?></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -198,26 +201,26 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <h5 class="text-secondary">License Number :</h5>
-                                                        <p  class="fw-light"><?php echo $doctor_row['license_no'] ?></p >
+                                                        <p class="fw-light"><?php echo $doctor_row['license_no'] ?></p>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <h5 class="text-secondary">Specialization :</h5>
-                                                        <p  class="fw-light"><?php echo $doctor_row['specialization'] ?></p >
+                                                        <p class="fw-light"><?php echo $doctor_row['specialization'] ?></p>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
 
                                                     <div class="form-group">
                                                         <h5 class="text-secondary">Experience :</h5>
-                                                        <p  class="fw-light"><?php echo $doctor_row['experience'] ?></p >
+                                                        <p class="fw-light"><?php echo $doctor_row['experience'] ?></p>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <h5 class="text-secondary">Certifications and Qualifications :</h5>
-                                                        <p  class="fw-light"><?php echo $doctor_row['certification'] ?></p >
+                                                        <p class="fw-light"><?php echo $doctor_row['certification'] ?></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -231,7 +234,7 @@
                         <?php
 
                         if ($doctor_row['approval'] == "Pending" || $doctor_row['approval'] == "Rejected") {
-                            ?>
+                        ?>
                             <div class="col-md-12">
                                 <div class="card">
                                     <div class="card-body justify-content-center">
@@ -255,30 +258,26 @@
                             </div>
 
 
-                        </div>
-                        <?php
+                    </div>
+                <?php
 
                         }
+                    } else {
+                ?>
 
+                <div class="container">
+                    <h1 class="text-center">Doctor already approved</h1>
+                </div>
 
-
-                } else {
-                    ?>
-
-                    <div class="container">
-                        <h1 class="text-center">Doctor already approved</h1>
-                    </div>
-
-                    <?php
+    <?php
+                    }
                 }
-            }
-        }
-        else{
-            echo "<script>alert('You are not a authorised to view this page');
+            } else {
+                echo "<script>alert('You are not a authorised to view this page');
             window.location.href='index.php'</script>";
-        }
+            }
 
-        ?>
+    ?>
 
 
     </div>
