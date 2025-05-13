@@ -12,7 +12,11 @@ Welcome to the **Pet Portal**, a comprehensive web application designed for pet 
 
 
 ## User Interface ✨
-<img src="screenshots/Login Pets Portal.png" width="600" height="400">
+<img src="screenshots/Login Pets Portal.png" width="400" height="200">
+<img src="screenshots/Screenshot 2025-01-08 132745.png" width="400" height="200">
+<img src="screenshots/Screenshot 2025-01-08 132844.png" width="400" height="200">
+<img src="screenshots/Screenshot 2025-01-10 103912.png" width="400" height="200">
+<img src="screenshots/Screenshot 2025-01-10 104052.png" width="400" height="200">
 
 
 ## Features ✨
