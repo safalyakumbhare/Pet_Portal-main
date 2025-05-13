@@ -3,6 +3,17 @@
 Welcome to the **Pet Portal**, a comprehensive web application designed for pet owners, doctors, and administrators. This project streamlines pet care and provides an efficient platform for pet-related services.
 
 ---
+## Technologies Used 💻
+- **Frontend**: HTML, CSS, Bootstrap, JavaScript
+- **Backend**: PHP (Core PHP)
+- **Database**: MySQL
+- **Additional Libraries**: jQuery, jQuery Validator, AJAX
+- **Environment Used**: VS Code, Wamp Server, PhpMyAdmin
+
+
+## User Interface ✨
+<img src="screenshots/Login Pets Portal.png" width="600" height="400">
+
 
 ## Features ✨
 
@@ -24,11 +35,6 @@ Welcome to the **Pet Portal**, a comprehensive web application designed for pet 
 
 ---
 
-## Technologies Used 💻
-- **Frontend**: HTML, CSS, Bootstrap, JavaScript
-- **Backend**: PHP (Core PHP)
-- **Database**: MySQL
-- **Additional Libraries**: jQuery, AJAX
 
 ---
 
