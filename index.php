@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
   if (mysqli_num_rows($doctor_result)) {
 
     $doctor_row = mysqli_fetch_assoc($doctor_result);
-    if ($doctor_row['approval'] == "Pending") {
+    if ($doctor_row['approval'] == "Pending") { 
       echo "<script>alert('Your account is pending for approval. Please wait for the admin approval.');
        window.location.href='index.php';</script>";
       exit();
